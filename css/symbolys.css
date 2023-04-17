@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #0f084b;
+  overflow-x: hidden;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* NavBar */
+
+.main-header-container {
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+  background-color: #0f084b;
+}
+
+.nav-container {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-title {
+  color: #fcdfa6;
+  max-width: 50%;
+  text-decoration: none;
+}
+
+.nav-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-list-item {
+  float: left;
+}
+
+.nav-link {
+  margin: 0 25px;
+  text-decoration: none;
+  color: #fcdfa6;
+  font-size: 25px;
+}
+
+/* Logo */
+
+.logo {
+  margin-right: 12px;
+  width: 64px;
+  height: 64px;
+  transition: all 1s ease;
+}
+
+.logo-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  text-align: center;
+  color: #fcdfa6a8;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+.now-here {
+  color: #fcdfa652;
+}
+
+/* Animation */
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.3s;
+}
+nav ul li a:hover {
+  color: #fcdfa652;
+}
+
+nav.nav-list ul li a:hover:after {
+  width: 100%;
+}
+
+.logo:hover {
+  transform: rotate(18deg);
+}
+
+/* Main Content */
+
+/* Flag */
+
+.flag-titel {
+  font-size: 35px;
+  font-family: 'Nova Oval', cursive;
+  color: #fcdfa6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.flag-ukarine-container {
+  display: flex; 
+  align-items: center;
+}
+
+.flag-ukarine-img {
+  margin-left: 20px;
+  max-width: 30%;
+  margin-right: 20px;
+}
+
+.flag-ukraine-text {
+  font-size: 30px;
+  color: #fcdfa6;
+  flex-grow: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Arms */
+
+.arms-titel {
+  font-size: 35px;
+  font-family: 'Nova Oval', cursive;
+  color: #fcdfa6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.arms-ukraine-container {
+  display: flex;
+  align-items: center;
+}
+
+.arms-ukraine-img {
+  order: 1;
+  margin-right: 20px; 
+  margin-left: 20px;
+  width: 30%;
+}
+
+.arms-ukraine-text {
+  margin-left: 20px;
+  font-size: 30px;
+  color: #fcdfa6;
+  order: 0;
+  flex: 1;
+}
+
+/* Anthem */
+
+.anthem-titel {
+  font-size: 35px;
+  font-family: 'Nova Oval', cursive;
+  color: #fcdfa6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.anthem-ukraine-container {
+  display: flex; 
+  align-items: center;
+}
+
+.anthem-ukraine-img {
+  width: 30%;
+  margin-left: 20px;
+}
+
+.anthem-ukraine-content {
+  flex: 1; 
+}
+
+.anthem-ukraine-text {
+  font-size: 30px;
+  color: #fcdfa6;
+  flex-grow: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Text&Lyric */
+
+.textandlyric-ukraine-container {
+  display: flex; /* Устанавливаем flex контейнер */
+  justify-content: center; /* Выравниваем содержимое по центру по горизонтали */
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+/* Poem */
+
+.anthem-ukraine-img-effect {
+  margin-left: 300px;
+  margin-top: 20px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.anthem-ukraine-poem {
+  margin-top: 50px;
+  margin-right: 1000px;
+  display: none;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 18px;
+  color: #fcdfa6;
+  /* white-space: pre-wrap; */
+  line-height: 1;
+  text-align: center;
+}
+
+.anthem-tite-effect {
+  font-size: 35px;
+  font-family: 'Nova Oval', cursive;
+  color: #fcdfa6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.poem-container {
+  width: 600px;
+}
+
+.athem-paragraph {
+  font-style: italic;
+  font-size: 20px;
+  font-family: 'Nova Oval', cursive;
+  color: #fcdfa6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Audio */
+
+.audio-img {
+  margin-top: 20px;
+  margin-left: 80px;
+  width: 200px;
+}
+
+.play-pause-button {
+  margin-top: 40px;
+  width: 70px;
+  height: 20px;
+  color: #0f084b;
+  font-size: 12px;
+  background-color: #fcdfa6; /* Цвет кнопки (в данном случае черный) */
+  cursor: pointer;
+  border: none;
+}
+
+/* Footer */
+
+.main-footer-container {
+  background-color: #0a0536;
+}
+
+.footer-title {
+  font-size: 25px;
+  color: #fcdfa6;
+  max-width: 50%;
+  text-decoration: none;
+}
+
+/* Logo Footer */
+
+.logo-footer-container {
+  margin-top: 40px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 40px;
+}
+
+.logo-footer-img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Footer Description */
+
+/* Footer Content */
+
+.footer-title-content {
+  margin-left: 40px;
+  font-size: 20px;
+  color: #fcdfa6;
+  font-style: normal;
+  padding-bottom: 30px;
+}
+
+.footer-content-list {
+  padding-bottom: 15px;
+  color: #fcdfa6;
+  list-style: none;
+}
+
+.footer-link-content {
+  color: #fcdfa6;
+  text-decoration: none;
+  margin-left: 28px;
+}
+
+footer ul li a,
+footer ul li a:after,
+footer ul li a:before {
+  transition: all 0.3s;
+}
+footer ul li a:hover {
+  color: #fcdfa652;
+}
+
+.footer-all-items-container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; 
+}
+
+.footer-title-content {
+  flex-basis: 100%; 
+  order: -1; 
+}
+
+.footer-content-container-list,
+.author-icon-container {
+  flex-basis: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.author-title-footer {
+  margin: -64px -64px 10px;
+}
+
+.author-icon-container {
+  padding-left: 0;
+}
+
+.author-list-link {
+  color: #fcdfa6;
+  text-decoration: none;
+  margin-left: 28px;
+}
+
+.author-list-container {
+  color: #fcdfa6;
+  list-style: none;
+}
+
+.autor-list-item {
+  padding-bottom: 15px;
+}
+
+.author-title-footer {
+  margin-left: 30px;
+  font-size: 20px;
+  color: #fcdfa6;
+  font-style: normal;
+  padding-bottom: 30px;
+}

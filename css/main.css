@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url(https://i.imgur.com/RpFEBVs.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  /*background-size: 100%;*/
+}
+
+
+.sticy {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* NavBar */
+
+.main-header-container {
+  /* background-color: #0f084b; */
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+  /*z-index: 10;*/
+}
+
+.nav-container {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nav-title {
+  color: #fcdfa6;
+  max-width: 50%;
+  text-decoration: none;
+}
+
+.nav-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-list-item {
+  float: left;
+}
+
+.nav-link {
+  margin: 0 25px;
+  text-decoration: none;
+  color: #fcdfa6;
+  font-size: 25px;
+}
+
+/* logo */
+
+.logo {
+  margin-right: 12px;
+  width: 64px;
+  height: 64px;
+  transition: all 1s ease;
+}
+
+.logo-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  text-align: center;
+  color: #fcdfa6a8;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+/* Animation */
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.3s;
+}
+nav ul li a:hover {
+  color: #fcdfa652;
+}
+
+nav.nav-list ul li a:hover:after {
+  width: 100%;
+}
+
+.logo:hover {
+  transform: rotate(18deg);
+}
+
+/* Main Contant */
+
+

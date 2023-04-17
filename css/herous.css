@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #0f084b;
+  overflow-x: hidden;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* NavBar */
+
+.main-header-container {
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.nav-container {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-title {
+  color: #fcdfa6;
+  max-width: 50%;
+  text-decoration: none;
+}
+
+.nav-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-list-item {
+  float: left;
+}
+
+.nav-link {
+  margin: 0 25px;
+  text-decoration: none;
+  color: #fcdfa6;
+  font-size: 25px;
+}
+
+.logo {
+  margin-right: 12px;
+  width: 64px;
+  height: 64px;
+  transition: all 1s ease;
+}
+
+.logo-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  text-align: center;
+  color: #fcdfa6a8;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+.now-here {
+  color: #fcdfa652;
+}
+
+/* Animation */
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.3s;
+}
+
+nav ul li a:hover {
+  color: #fcdfa652;
+}
+
+nav.nav-list ul li a:hover:after {
+  width: 100%;
+}
+
+.logo:hover {
+  transform: rotate(18deg);
+}
+
+/*Main Content*/
+
+.ukraine-heroes-main-container {
+  margin-top: 40px;
+}
+
+/*Intro*/
+
+.intro-heroes-title {
+  color: #fcdfa6;
+  text-align: center;
+}
+
+.intro-heroes-paragraph {
+  color: #fcdfa6a8;
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/*Heroes Our Day*/
+
+/*Navigation*/
+
+.intro-heroes-azov {
+  color: #fcdfa6;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.azov-title-nav {
+  font-size: 30px;
+  color: #fcdfa6;
+  margin-top: 40px;
+}
+
+.azov-heroes-title-nav {
+  font-size: 20px;
+  color: #fcdfa6;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.azov-heroes-name-nav {
+  font-style: italic;
+  color: #fcdfa6;
+  font-size: 16px;
+  padding-bottom: 16px;
+  list-style: none;
+}
+
+
+
+
