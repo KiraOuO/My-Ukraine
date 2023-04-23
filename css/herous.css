@@ -9,7 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-
 .sticky {
   position: fixed;
   top: 0;
@@ -107,6 +106,7 @@ nav.nav-list ul li a:hover:after {
 /*Intro*/
 
 .intro-heroes-title {
+  font-size: 26px;
   color: #fcdfa6;
   text-align: center;
 }
@@ -120,35 +120,385 @@ nav.nav-list ul li a:hover:after {
 
 /*Heroes Our Day*/
 
-/*Navigation*/
+/*Heroes Azov*/
+
+.heroes-azov-main-title {
+  font-size: 30px;
+  color: #fcdfa6;
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+
+.title-heroes-azov {
+  font-size: 26px;
+  color: #fcdfa6;
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+
+.name-subtitle-heroes-azov {
+  font-style: italic;
+  color: #fcdfa6;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.names-heroes-azov {
+  font-size: 26px;
+  color: #fcdfa6;
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+
+.bio-heroes-azov{
+  color: #fcdfa6a8;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/*SideBar*/
+
+.sidebar {
+  backdrop-filter: blur(16px);
+  width: 360px;
+  position: fixed;
+  background-color: rgba(20, 20, 20, 0.5);
+  height: 100vh;
+  border-right: 7px solid #fcdfa6;
+  left: -362px;
+  transition: all 0.6s ease;
+  overflow-y: auto;
+  top: 0;
+  transition-property: left;
+}
+
+.nav-second {
+  font-size: 30px;
+  color: #fcdfa6;
+  padding-bottom: 20px;
+  bottom: 30px;
+  padding-left: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+.nav-third {
+  font-size: 30px;
+  color: #fcdfa6;
+  padding-bottom: 20px;
+  bottom: 20px;
+  padding-left: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+.nav-fourth {
+  font-size: 30px;
+  color: #fcdfa6;
+  padding-bottom: 20px;
+  bottom: 20px;
+  padding-left: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+.menu_list:hover .nav-second {
+  margin-bottom: 80px;
+  transition: all 0.5s ease;
+}
+
+.menu_list:hover .nav-third {
+  margin-bottom: 230px;
+  transition: all 0.5s ease;
+}
+
+.menu_list:hover .nav-fourth {
+  margin-bottom: 180px;
+  transition: all 0.5s ease;
+}
+
+.sidebar:hover {
+  left: 0;
+}
+
+.azov-heroes-name-nav:hover {
+  border-left: 4px solid white;
+  padding-left: 10px;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+}
+
+.sidebar-navigation li {
+  position: relative;
+  top: 30px;
+}
+
+.sub-menu-list {
+  display: none;
+  position: absolute;
+  top: 25px;
+  padding: 20px 0 0 0;
+}
+
+.azov-heroes-name-nav {
+  display: inline-block;
+}
+
+.menu_list>li:hover .sub-menu-list {
+  display: block;
+}
+
+.menu_list:hover .azov-heroes-title-nav {
+  margin-bottom: 366px;
+  transition: all 0.5s ease;
+}
+
+.heroes-our-day-container {
+  margin-left: 40px;
+}
 
 .intro-heroes-azov {
-  color: #fcdfa6;
+  color: #fcdfa6a8;
   text-align: left;
   margin-top: 40px;
 }
 
 .azov-title-nav {
-  font-size: 30px;
+  font-size: 25px;
   color: #fcdfa6;
-  margin-top: 40px;
+  margin-top: 70px;
+  padding-left: 30px;
 }
 
 .azov-heroes-title-nav {
-  font-size: 20px;
+  font-size: 30px;
   color: #fcdfa6;
   padding-bottom: 20px;
-  margin-top: 20px;
+  bottom: 30px;
+  padding-left: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
 }
 
 .azov-heroes-name-nav {
   font-style: italic;
+  color: #fcdfa6a8;
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+  line-height: 15px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+/*Photo*/
+
+.photo-heroes-azov {
+  margin: 40px auto 40px;
+  width: 60%;
+  display: block;
+}
+
+.photo-heavenly-hundred {
+  width: 60%;
+  display: block;
+  margin: 40px auto 40px;
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+/*Heavenly Hundred*/
+
+.heavenly-hundred-main-title {
+  font-size: 30px;
   color: #fcdfa6;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.heavenly-hundred-title {
+  font-size: 26px;
+  color: #fcdfa6;
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+
+.heavenly-hundred-paragraph {
+  color: #fcdfa6a8;
+  margin: 20px 0 20px 20px;
   font-size: 16px;
-  padding-bottom: 16px;
+}
+
+/*Video*/
+
+.heavenly-hundred-video {
+  width: 560px;
+  height: 315px;
+  border: 0;
+  display: block;
+  margin: 40px auto 40px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.interviews-video {
+  width: 560px;
+  height: 315px;
+  border: 0;
+  display: block;
+  margin: 40px auto 40px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+/*Interviews*/
+
+.interviews-with-relatives-paragraph {
+  color: #fcdfa6a8;
+  text-align: center;
+  font-size: 16px;
+}
+
+/*Volunteers*/
+
+.volunteers-container {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.volunteers-fond-li {
+  list-style: none;
+  text-decoration: none;
+  margin: auto 20px;
+  color: #fcdfa6;
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.volunteers-fond-main-title {
+  font-size: 26px;
+  color: #fcdfa6;
+  margin: 40px 20px 20px 20px;
+  text-align: center;
+}
+
+.volunteers-paragraph {
+  color: #fcdfa6a8;
+  margin: 40px 20px 20px 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Footer */
+
+.main-footer-container {
+  background-color: #0a0536;
+}
+
+.footer-title {
+  font-size: 25px;
+  color: #fcdfa6;
+  max-width: 50%;
+  text-decoration: none;
+}
+
+/* Logo Footer */
+
+.logo-footer-container {
+  margin-top: 40px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 40px;
+}
+
+.logo-footer-img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Footer Description */
+
+/* Footer Content */
+
+.footer-title-content {
+  margin-left: 40px;
+  font-size: 20px;
+  color: #fcdfa6;
+  font-style: normal;
+  padding-bottom: 30px;
+}
+
+.footer-content-list {
+  padding-bottom: 15px;
+  color: #fcdfa6;
   list-style: none;
 }
 
+.footer-link-content {
+  color: #fcdfa6;
+  text-decoration: none;
+  margin-left: 28px;
+}
 
+footer ul li a,
+footer ul li a:after,
+footer ul li a:before {
+  transition: all 0.3s;
+}
+footer ul li a:hover {
+  color: #fcdfa652;
+}
 
+.footer-all-items-container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
 
+.footer-title-content {
+  flex-basis: 100%;
+  order: -1;
+}
+
+.footer-content-container-list,
+.author-icon-container {
+  flex-basis: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.author-title-footer {
+  margin: -64px -64px 10px;
+}
+
+.author-icon-container {
+  padding-left: 0;
+}
+
+.author-list-link {
+  color: #fcdfa6;
+  text-decoration: none;
+  margin-left: 28px;
+}
+
+.author-list-container {
+  color: #fcdfa6;
+  list-style: none;
+}
+
+.autor-list-item {
+  padding-bottom: 15px;
+}
+
+.author-title-footer {
+  margin-left: 30px;
+  font-size: 20px;
+  color: #fcdfa6;
+  font-style: normal;
+  padding-bottom: 30px;
+}

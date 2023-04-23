@@ -10,9 +10,14 @@ body {
 }
 
 .sticky {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 /* NavBar */
@@ -98,50 +103,39 @@ nav.nav-list ul li a:hover:after {
 
 /*Main*/
 
-.picturesque-main-container h1 {
+/*History*/
+
+.main-title-history {
   font-size: 30px;
   color: #fcdfa6;
   margin: 40px 0 20px 0;
   text-align: center;
 }
 
-.picturesque-main-container p {
+.history-paragraph {
   color: #fcdfa6a8;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
 }
 
 /*Photo*/
 
-.karpatu-photo-container {
-  display: flex;
-  justify-content: center;
+.history-photo {
+  margin: 40px auto 40px;
+  width: 60%;
+  display: block;
 }
 
-.karpatu-photo-items {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  max-width: 46%;
-  max-height: 46%;
-  padding-left: 20px;
-}
+/*Video*/
 
-.lviv-photo-container {
-  display: flex;
-  justify-content: center;
-}
-
-.lviv-photo-items {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  max-width: 46%;
-  max-height: 46%;
-  padding-left: 20px;
+.history-video {
+  width: 560px;
+  height: 315px;
+  border: 0;
+  display: block;
+  margin: 40px auto 40px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Footer */
@@ -255,4 +249,3 @@ footer ul li a:hover {
   font-style: normal;
   padding-bottom: 30px;
 }
-

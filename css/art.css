@@ -1,86 +1,80 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  background-color: #0f084b;
-  overflow-x: hidden;
+    font-family: "Raleway", sans-serif;
+    background-color: #0f084b;
+    overflow-x: hidden;
 }
-
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-
-.sticky + .content {
-  padding-top: 60px;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 /* NavBar */
 
 .main-header-container {
-  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .nav-container {
-  padding-bottom: 30px;
-  padding-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-title {
-  color: #fcdfa6;
-  max-width: 50%;
-  text-decoration: none;
+    color: #fcdfa6;
+    max-width: 50%;
+    text-decoration: none;
 }
 
 .nav-list {
-  margin-left: 0;
-  padding-left: 0;
-  list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
 }
 
 .nav-list-item {
-  float: left;
+    float: left;
 }
 
 .nav-link {
-  margin: 0 25px;
-  text-decoration: none;
-  color: #fcdfa6;
-  font-size: 25px;
+    margin: 0 25px;
+    text-decoration: none;
+    color: #fcdfa6;
+    font-size: 25px;
 }
 
 .logo {
-  margin-right: 12px;
-  width: 64px;
-  height: 64px;
-  transition: all 1s ease;
+    margin-right: 12px;
+    width: 64px;
+    height: 64px;
+    transition: all 1s ease;
 }
 
 .logo-container {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro {
-  text-align: center;
-  color: #fcdfa6a8;
-  padding-top: 10px;
-  padding-bottom: 12px;
+    text-align: center;
+    color: #fcdfa6a8;
+    padding-top: 10px;
+    padding-bottom: 12px;
 }
 
 .now-here {
-  color: #fcdfa652;
+    color: #fcdfa652;
 }
 
 /* Animation */
@@ -88,16 +82,244 @@ body {
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
-  transition: all 0.3s;
+    transition: all 0.3s;
 }
+
 nav ul li a:hover {
-  color: #fcdfa652;
+    color: #fcdfa652;
 }
 
 nav.nav-list ul li a:hover:after {
-  width: 100%;
+    width: 100%;
 }
 
 .logo:hover {
-  transform: rotate(18deg);
+    transform: rotate(18deg);
+}
+
+/*Main*/
+
+.art-main-container h1 {
+    font-size: 30px;
+    color: #fcdfa6;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+.art-main-container p {
+    color: #fcdfa6a8;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sub-title-national-art {
+    font-style: italic;
+    font-size: 26px;
+    color: #fcdfa6;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+/*Photo*/
+
+.photo-national-art {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-national-art-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 370px;
+    padding-left: 30px;
+}
+
+.photo-national-art-another {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.photo-national-art-another img {
+    max-height: 100%;
+}
+
+.photo-natural-art-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 30px;
+}
+
+/*Music Art*/
+
+.sub-title-music-art {
+    font-style: italic;
+    font-size: 26px;
+    color: #fcdfa6;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+/*Video*/
+
+.song-video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.song-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 315px;
+    margin-left: 30px;
+}
+
+.dance-video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dance-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 660px;
+    height: 415px;
+}
+
+/*Dance Art*/
+
+.sub-title-dance-art {
+    font-style: italic;
+    font-size: 26px;
+    color: #fcdfa6;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+/* Footer */
+
+.main-footer-container {
+    background-color: #0a0536;
+}
+
+.footer-title {
+    font-size: 25px;
+    color: #fcdfa6;
+    max-width: 50%;
+    text-decoration: none;
+}
+
+/* Logo Footer */
+
+.logo-footer-container {
+    margin-top: 40px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 40px;
+}
+
+.logo-footer-img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Footer Description */
+
+/* Footer Content */
+
+.footer-title-content {
+    margin-left: 40px;
+    font-size: 20px;
+    color: #fcdfa6;
+    font-style: normal;
+    padding-bottom: 30px;
+}
+
+.footer-content-list {
+    padding-bottom: 15px;
+    color: #fcdfa6;
+    list-style: none;
+}
+
+.footer-link-content {
+    color: #fcdfa6;
+    text-decoration: none;
+    margin-left: 28px;
+}
+
+footer ul li a,
+footer ul li a:after,
+footer ul li a:before {
+    transition: all 0.3s;
+}
+footer ul li a:hover {
+    color: #fcdfa652;
+}
+
+.footer-all-items-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footer-title-content {
+    flex-basis: 100%;
+    order: -1;
+}
+
+.footer-content-container-list,
+.author-icon-container {
+    flex-basis: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.author-title-footer {
+    margin: -64px -64px 10px;
+}
+
+.author-icon-container {
+    padding-left: 0;
+}
+
+.author-list-link {
+    color: #fcdfa6;
+    text-decoration: none;
+    margin-left: 28px;
+}
+
+.author-list-container {
+    color: #fcdfa6;
+    list-style: none;
+}
+
+.autor-list-item {
+    padding-bottom: 15px;
+}
+
+.author-title-footer {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #fcdfa6;
+    font-style: normal;
+    padding-bottom: 30px;
 }

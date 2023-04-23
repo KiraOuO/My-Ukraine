@@ -38,7 +38,7 @@ body {
 }
 
 .nav-title {
-  color: #fcdfa6;
+  color: #FFE125;
   max-width: 50%;
   text-decoration: none;
 }
@@ -56,8 +56,8 @@ body {
 .nav-link {
   margin: 0 25px;
   text-decoration: none;
-  color: #fcdfa6;
-  font-size: 25px;
+  color: #103B9B;
+  font-size: 24px;
 }
 
 /* logo */
@@ -91,7 +91,7 @@ nav ul li a:before {
   transition: all 0.3s;
 }
 nav ul li a:hover {
-  color: #fcdfa652;
+  color: #2E2201;
 }
 
 nav.nav-list ul li a:hover:after {
